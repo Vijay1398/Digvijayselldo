@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="leadActivities.AddTaskTest">
+        <methods>
+          <include name="endingTest"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="sales_presalesLogin"/>
+          <include name="setUp"/>
+          <include name="changingTaskStatusTest"/>
+        </methods>
+      </class> <!-- leadActivities.AddTaskTest -->
+      <class name="exportPackage.ExportUserLogsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="exportUserLogsTest"/>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="sales_presalesLogin"/>
+        </methods>
+      </class> <!-- exportPackage.ExportUserLogsTest -->
+      <class name="exportPackage.ExportInvoices_ItemizedBill_EmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="exportInvoices_ItemizedBill_EmailTest"/>
+          <include name="sales_presalesLogin"/>
+        </methods>
+      </class> <!-- exportPackage.ExportInvoices_ItemizedBill_EmailTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

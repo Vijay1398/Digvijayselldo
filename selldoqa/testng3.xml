@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="2">
+<test name="Test">
+
+<!-- <listeners>
+    <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter" />
+</listeners> -->
+	 
+    <packages>
+     
+          <package name="leadActivities" /> 
+      <package name="leadStagesPack" />
+      <package name="login" />
+       
+     </packages>
+      
+	
+		<!-- <classes>
+       		    <class name="adminPack.ClientCreationPostPaid" />
+		 		<class name="leadActivities.SendingEmailTest" />
+		 	    <class name="leadActivities.SendingEmailWithCCandBCCTest" />
+		 		<class name="leadActivities.SendingEmailWithTemplateTest" />
+		 		<class name="otherLeadActivitiesPack.SendingBrochure_WithoutTemplateTest" />
+		 		<class name="otherLeadActivitiesPack.SendingBrochure_WithTemplateTest" />
+		 		<class name="otherLeadActivitiesPack.SendingQuotes_WithoutTemplateTest" />
+		 		<class name="otherLeadActivitiesPack.SendingQuotes_WithTemplateTest" />
+		 		<class name="leadActivities.LogOfflineCall_InboundAnsweredTest" />
+		 		<class name="leadActivities.LogOfflineCall_InboundNotAnsweredTest" />
+		 		<class name="leadActivities.LogOfflineCall_outboundAnsweredTest" />
+		 		<class name="leadActivities.LogOfflineCall_OutboundNotAnsweredTest" />
+				
+		</classes>    -->
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		
+		<packages>
+
+			<package name="exportPackage"></package>
+			<package name="login"></package>
+
+		</packages>
+		
+		
+		<!--<classes>
+		
+			<class name="leadActivities.AddConductedSiteVisitTest"></class>
+			<class name="leadActivities.AddingANoteTest"></class>
+			<class name="leadActivities.AddTaskTest"></class>
+
+		</classes> -->
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

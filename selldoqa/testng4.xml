@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="2">
+<test name="Test">
+
+	<classes>
+       		    <class name="exportPackage.ExportBookingsTest" />
+		 		<class name="exportPackage.ExportCallsTest" />
+		 		<class name="exportPackage.ExportCampaignsTest" />
+		 		<class name="exportPackage.ExportFollowupsTest" />
+		 		<class name="exportPackage.ExportInvoices_ItemizedBill_CalllTest" />
+		 		<class name="exportPackage.ExportInvoices_ItemizedBill_EmailTest" />
+		 		<class name="exportPackage.ExportInvoices_ItemizedBill_MarketingActivityTest" />
+		 		<class name="exportPackage.ExportInvoices_ItemizedBill_SMSTest" />
+		 		<class name="exportPackage.ExportLeadsTest" />
+		 		<class name="exportPackage.ExportPartnersTest" />
+		 		<class name="exportPackage.ExportProjectsTest" />
+		 		<class name="exportPackage.ExportProjectUnitsTest" />
+		 		<class name="exportPackage.ExportSitevisitsTest" />
+		 		<class name="exportPackage.ExportTasksTest" />
+		 		<class name="exportPackage.ExportUserLogsTest" />
+		 		<class name="exportPackage.ExportUsersTest" />
+		 		<class name="exportPackage.ExportVirtualNumbersTest" />
+		 		<class name="dashboardBucketsPack.MissedCalls_VerificationTest" />
+		 		<class name="dashboardBucketsPack.MissedFollowup_VerificationTest" />
+		 		<class name="dashboardBucketsPack.MissedSitevisit_VerificationTest" />
+		 		<class name="dashboardBucketsPack.NewEnquiries_VerificationTest" />
+		 		<class name="dashboardBucketsPack.NFA_VerificationTest" />
+		 		<class name="dashboardBucketsPack.ReengagedLeads_VerificationTest" />
+		 		<class name="dashboardBucketsPack.TodaysFollowup_VerificationTest" />
+		 		<class name="dashboardBucketsPack.TodaysSitevisit_VerificationTest" />
+		 		<class name="dashboardBucketsPack.UnreadEmail_VerificationTest" />
+		 		<class name="otherLeadActivitiesPack.MarkingOnBreakTest" />
+		 		<class name="otherLeadActivitiesPack.AddingNewLeadWithFilledForm_PresalesTest" />
+		 		<class name="otherLeadActivitiesPack.AddingNewLeadWithFilledForm_SalesTest" />
+		 		<class name="otherLeadActivitiesPack.SearchingLeadByAdminTest" />
+		 		<class name="otherLeadActivitiesPack.SearchingLeadByUserTest" />
+		 		<class name="otherLeadActivitiesPack.ReassigningLeadTest" />
+		 		<class name="otherLeadActivitiesPack.MergingTwoLeadsFromSameStagesTest" />
+		 		<class name="leadActivities.FollowupTests" />
+		 		<class name="leadActivities.ChangingSiteVisitStatusTest" />
+		 		<class name="leadActivities.MarkingSiteVisitConductedTest" />
+		 		<class name="leadActivities.MarkingSiteVisitDidNotVisitTest" />
+		 		<class name="leadActivities.MarkingSiteVisitNotInterestedTest" />
+		 		<class name="leadActivities.ReschedulingSiteVisitTest" />
+		 			 		
+		</classes>   
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

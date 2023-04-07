@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="2">
+	<test name="Test">
+
+		<!-- <listeners> <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter" 
+			/> </listeners> -->
+
+		<packages>
+			<package name="workingTestscripts" />
+
+
+		</packages>
+
+
+		<!-- <classes>
+			<class name="workingTestscripts.AddConductedSiteVisitTest" />
+			<class name="workingTestscripts.AddingANoteTest" />
+			<class name="workingTestscripts.Admin_LoginTest "/>
+			<class name="workingTestscripts.ChangingStage_IncomingToProspectTest "/>
+			<class name="workingTestscripts.FollowupTests "/>
+			<class name="workingTestscripts.Postsales_LoginTest "/>
+			<class name="workingTestscripts.PostSalesManager_LoginTest "/>
+			<class name="workingTestscripts.Presales_LoginTest "/>
+			<class name="workingTestscripts.PresalesManager_LoginTest "/>
+			<class name="workingTestscripts.ReassigningLeadTest "/>
+			<class name="workingTestscripts.Sales_LoginTest "/>
+			<class name="workingTestscripts.SalesManager_LoginTest "/>
+			<class name="workingTestscripts.SendingEmailTest "/>
+			<class name="workingTestscripts.SendingEmailWithCCandBCCTest "/>
+			<class name="workingTestscripts.SendingEmailWithTemplateTest "/>
+			<class name="workingTestscripts.SuperAdmin_LoginTest "/>
+			<class name="workingTestscripts.SupportManager_LoginTest "/>
+		
+		</classes> -->
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
