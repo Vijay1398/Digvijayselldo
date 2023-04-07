@@ -33,7 +33,7 @@ public class Admin_LoginTest extends SetUp {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 	}
-
+// Hello Digvijay
 	@Test
 	public void adminLoginTest() throws Exception {
 
